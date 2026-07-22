@@ -113,8 +113,7 @@ displaying the project name and challenge details.
 
 ## Notes
 
-- `ec2.tf` loads the boot script from `user_data.sh` (via `file()` or
-  `templatefile()`), rather than inlining the script directly — keep the two
+- `ec2.tf` loads the boot script from `user_data.sh` (via `file()`), rather than inlining the script directly — keep the two
   files in sync if you edit the HTML or install steps.
 - `user_data` only runs on **first boot**. If you change the boot script after
   the instance already exists, you'll need to taint and recreate it for the
