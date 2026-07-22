@@ -23,14 +23,15 @@ variable "environment" {
   default     = "production"
 
 }
-variable "password_lenght" {
-  description = "Length of the generated password"
-  type        = number
-  default     = 16
-}
 
 variable "managed_by" {
   description = "IAC management"
   type        = string
   default     = "Terraform"
+}
+
+variable "bucket_name" {
+  description = "Terraform state"
+  type        = string
+  default     = "ogechukwu-web-server-bucket-hug2026"
 }
