@@ -9,6 +9,8 @@ This project provisions a complete, minimal AWS network stack and launches a
 single EC2 instance running Nginx, which serves a static HTML page on boot via
 a `user_data` script.
 
+<img width="1918" height="995" alt="image" src="https://github.com/user-attachments/assets/381baee7-3783-43ed-9418-44501e9b4b31" />
+
 **What gets created:**
 - A custom VPC
 - A public subnet
