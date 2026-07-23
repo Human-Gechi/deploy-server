@@ -3,6 +3,7 @@
 Deploy a basic Nginx web server on AWS using Terraform, fully provisioned from
 scratch with Infrastructure as Code with no manual console clicks required.
 
+Live server here: http://13.48.3.121/
 ## Overview
 
 This project provisions a complete, minimal AWS network stack and launches a
